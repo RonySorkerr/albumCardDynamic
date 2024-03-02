@@ -19,7 +19,7 @@ const loadData = (data) => {
         <p>${users.website}</p>
         <p></p>
         <p></p>
-        <div class="card-actions justify-center"><button class="btn btn-primary" onclick=""fullInfo()">Full Info</button></div>
+        <div class="card-actions justify-center"><button class="btn btn-primary" onclick="fullInfo()">${users.id}</button></div>
         </div>
         `
         cardContainer.appendChild(userCard)
@@ -30,4 +30,4 @@ const fullInfo = () =>{
     console.log('clicked')
 }
 
-loadAPI()
+loadAPI() 
